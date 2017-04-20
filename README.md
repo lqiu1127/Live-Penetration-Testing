@@ -24,6 +24,7 @@ Vulnerability #2: __________________
 ## Green
 
 Vulnerability #1: Username Enumeration
+
 The programmer bolded the login unsucessful for logins that have the correct username. 
 
 Vulnerability #2: __________________
