@@ -20,7 +20,9 @@ Vulnerability #1: SQL Injection (SQLi)
 
 You can inject the userid lookup (not escaped) with https://35.184.84.47/blue/public/salesperson.php?id=' OR SLEEP(5)=0--'
 
-Vulnerability #2: __________________
+Vulnerability #2: Session Hijacking/Fixation
+
+Can use the same session ID in red to get into blue.
 
 
 ## Green
@@ -31,7 +33,7 @@ The programmer bolded the login unsucessful for logins that have the correct use
 when user doesnt exist, the login unsucessful is in <span class= "failed">. However when the user does exist it is replaced with a <span class= "failure">
 
 
-Vulnerability #2: __________________
+Vulnerability #2: Cross-Site Scripting (XSS)
 
 
 ## Red
@@ -40,7 +42,7 @@ Vulnerability #1: Insecure Direct Object Reference (IDOR)
 
 /red/public/salesperson.php?id=10 and /red/public/salesperson.php?id=11 are accessible by public through URL manipulation
 
-Vulnerability #2: __________________
+Vulnerability #2: Cross-Site Request Forgery
 
 
 ## Notes
