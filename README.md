@@ -32,7 +32,9 @@ Vulnerability #2: __________________
 
 ## Red
 
-Vulnerability #1: __________________
+Vulnerability #1: Insecure Direct Object Reference (IDOR)
+
+/red/public/salesperson.php?id=10 and /red/public/salesperson.php?id=11 are accessible by public through URL manipulation
 
 Vulnerability #2: __________________
 
