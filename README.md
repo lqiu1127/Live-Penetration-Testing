@@ -26,6 +26,8 @@ Vulnerability #2: __________________
 Vulnerability #1: Username Enumeration
 
 The programmer bolded the login unsucessful for logins that have the correct username. 
+when user doesnt exist, the login unsucessful is in <span class= "failed">. However when the user does exist it is replaced with a <span class= "failure">
+
 
 Vulnerability #2: __________________
 
