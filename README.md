@@ -44,6 +44,7 @@ Vulnerability #1: Insecure Direct Object Reference (IDOR)
 
 Vulnerability #2: Cross-Site Request Forgery
 
+User can edit sales person information without a valid CSRF token, which is a big problem. Other site has a safety CSRF token check that this website does not have.
 
 ## Notes
 
